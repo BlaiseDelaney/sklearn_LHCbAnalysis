@@ -1,0 +1,11 @@
+Fontconfig error: Cannot load default config file
+[?1034h--- Selected 50000 entries to read in from MC ---
+             precision    recall  f1-score   support
+
+ background       0.59      0.56      0.57        18
+     signal       0.71      0.74      0.73        27
+
+avg / total       0.66      0.67      0.66        45
+
+Area under ROC curve: 0.7469
+--- Run time = 8.51955199242 seconds ---
