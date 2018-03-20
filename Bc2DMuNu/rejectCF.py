@@ -39,7 +39,7 @@ sigTree = sigFile.Get('AnalysisTree')
 
 #eventually load one tree and include itype selection
 print '--- Selected 50000 entries to read in from MC ---'
-evtmax=100
+evtmax=250000
 
 #should rename with string manipulation
 #'B_plus_MCORRERR/B_plus_MCORR' bdt output correlated with MCORR
@@ -215,7 +215,6 @@ plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 plt.title('Receiver operating characteristic')
 plt.legend(loc="lower right")
-plt.grid()
 plt.savefig('Plots/ROC.pdf')
 plt.close()
 
